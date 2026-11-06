@@ -7,7 +7,7 @@ name = "st4r-academic-workspace"
 version = "0.1.0"
 description = "Early-stage open-source academic task management prototype"
 requires-python = ">=3.10"
-dependencies = ["fastapi>=0.110,<1"]
+dependencies = ["fastapi>=0.110,<1", "uvicorn>=0.30,<1"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<10", "httpx>=0.27,<1"]
